@@ -1,0 +1,569 @@
+
+body{
+background-color:#FFEFD5;
+}
+
+nav ul li{
+	display:inline;
+	background-color:#FFC0CB;
+	border:2px solid;
+	border-color:gray black black gray;
+	padding:.5em 0;
+	margin:3em 4em;
+	
+	
+}
+
+nav{
+	position:fixed;
+	top:0em;
+	left:0em;
+	background-color:#FFEFD5;
+	width:150%;
+	
+	
+}
+
+.apple{
+	display:inline-block;
+	text-align:center;
+	font-weight:bold;
+	padding:.5em 0;
+	width:300px;
+	
+}
+
+.Intro{
+	font-family:Helvetica, Verdana;
+	background-color:#6A5ACD;
+	color:White;
+	border-radius:15px;
+	text-align:center;
+	border:solid 2px white;
+	margin-top:5%;
+	margin-bottom:2%;
+	border:solid black 2px;
+}
+
+.homemain{
+	background-image:url(../images/homebackground.jpg);
+	background-color:darkblue;
+}
+
+
+.profilepic{
+	width:40%;
+	margin:auto;
+}
+
+p
+{
+	font-family: serif;
+	font-size: 125%;
+	
+}
+
+.firstparagraph{
+	float:left;
+	width:60%;
+	background: linear-gradient(#6A5ACD, #00FFFF);
+	background-color:#6A5ACD;
+	padding:1em;
+	margin-top:15px;
+	text-align:justify;
+	border-radius:15px; 
+	border:solid red 2px;
+}
+
+h3{
+	font-size:140%;
+}
+
+.babyphotos{
+	clear:both;
+	padding-top:3%;
+	
+}
+
+aside {
+	float :right;
+    background: linear-gradient(#006400, #00FF7F);
+	background-color:#006400;
+	width:30%;
+	font-family:Verdana;
+	font-size:110%;
+	margin-top:13px;
+	border: dotted white 2px;
+	color:white;
+	
+}
+
+aside ol li{
+	padding-bottom:1em;
+	background-color:orange;	
+}
+
+.randomfacts{
+	color:black;
+}
+
+section 
+	{
+		clear:right;
+		padding-top:3%;
+	}	
+	
+table, th, td{
+	border:solid black 1px;
+}
+
+table{
+	width:50%;
+	margin:3% auto;
+	border-collapse:collapse;
+	text-align:center;
+}
+
+th{
+	background-color:#00BFFF;
+}
+
+tr:nth-of-type(even){
+	background-color:#E6E6FA;
+}
+
+tr:nth-of-type(odd){
+	background-color:#00CED1;
+}
+
+tr:hover{
+	background-color:orange;
+}
+
+.mhead{
+	background-color:#00FF7F;
+	font-family:Helvetica;
+}
+
+.odd{
+	background-color:#FFA07A;
+}
+
+.eve{
+	background-color:#FFD700;
+}
+
+caption{
+	font-family:Verdana;
+	font-size:120%;
+	text-align:center;
+}
+
+.secondparagraph{
+	width:50%;
+	margin:auto;
+	background: linear-gradient(#6A5ACD, #00FFFF);
+	background-color:#6A5ACD;
+	padding:1em;
+	border-radius:15px;
+	border:solid red 2px;	
+}
+
+.childhoodphotos{
+	clear:both;
+	padding-top:3%;
+	
+}
+
+.GameboySonic{
+	width:29%;
+}
+	
+footer{
+	background-color:gray;
+	font-size:150%;
+	color:white;
+	width:100%;
+	bottom:0;
+	text-align:center;
+	padding:2em;
+    border:white 2px solid;
+	clear: both;
+}
+
+figure{
+	float:left;
+	width:29%;
+	text-align:center;
+
+}
+
+figcaption{
+	text-align:center;
+	color:white;
+	margin-top:3%;
+	font-size: 120%;
+	background-color:#6A5ACD;
+	clear:both;
+	width:50%;
+	margin-left:25%;
+	border:outset white 2px;
+}
+
+#Start
+{
+	font-size:130%;
+}
+
+a:link {
+	color:red;
+}
+
+a:visited
+{
+	color:#9932CC;
+}
+
+a:hover
+{
+	text-decoration:none;
+	color:blue;
+	background-color:orange;
+}
+
+a:active
+{
+	color:red;
+	background-color:orange;
+}
+
+
+
+
+
+
+.gametitle
+{
+	font-family:Helvetica, Verdana;
+	background-color:#00FF7F;
+	color:Black;
+	border-radius:15px;
+	text-align:center;
+	margin-top:5%;
+	margin-bottom:2%;
+	border:solid 2px black;
+}
+
+.gamemain{
+   background-image:url(../images/gameswallpaper5.jpg);
+   background-color:black;
+}
+
+.GamingBody{
+	background-color:#7FFFD4;
+}
+
+.gamePara1{
+	float:left;
+	width:40%;
+	margin-left:7%;
+	 background: linear-gradient(#7FFFD4, #00FF7F);
+	 background-color:#7FFFD4;
+	border-radius:15px;
+	padding:1em;
+	margin-top:1%;
+	border:solid blue 2px;
+}
+
+.console{
+	font-size:115%;
+	font-family:Verdana;
+	 background-color:purple;
+	color:white;
+	border-radius:15px;
+	float:left;
+	width:40%;
+	margin-left:7%;
+	padding-top:1em;
+	padding-bottom:1em;
+	
+    background-image:url(../images/GamingConsoles.jpg);
+	background-repeat:no-repeat;
+	background-size:380px 220px;
+	background-position:380px;
+	border:dotted white 2px;
+}
+
+.MyConsoles{
+	padding:7px;
+}
+
+.gameSection1{
+	padding-top:3%;
+	clear:both;
+}
+
+.Gamefigcaption{
+	 background-color:#00FF7F;
+	 color:black;
+}
+
+.gamePara2{
+	clear:both;
+	width:50%;
+	margin:auto;
+	background-color:#7FFFD4;
+	padding:1em;
+	border-radius:15px;
+	margin-top:20%;
+	margin-bottom:5%;
+	 background: linear-gradient(#7FFFD4, #00FF7F);
+	 border:2px blue solid;
+}
+
+.ffseven{
+	clear:both;
+}
+
+.favouritegames{
+	font-size:115%;
+	font-family:Verdana;
+    background-color:purple;
+	color:white;
+	float:left;
+	width:30%;
+	border-radius:15px;
+	padding-top:1em;
+	padding-bottom:0em;
+	
+    background-image:url(../images/rpg.jpg);
+	background-repeat:no-repeat;
+	background-size:550px 280px;
+	background-position:380px;
+	width:57%;
+	border:dotted white 2px;
+}
+
+.gameEntry{
+	padding:15px;
+}
+
+.gamePara3{
+	clear:both;
+	width:50%;
+	margin:auto;
+    background: linear-gradient(#7FFFD4, #00FF7F);
+	background-color:#7FFFD4;
+    border:solid 2px blue;
+	padding:1em;
+	border-radius:15px;
+	margin-top:23%;
+	margin-bottom:5%;
+}
+
+.articleToby{
+	width:50%;
+	position:relative;
+	left:25%;
+	background-color:#00CED1;
+	border-radius:15px;
+	clear:both;
+	
+	background-image:url(../images/undertale3.jpg);
+	background-size:250px 200px;
+	background-repeat:no-repeat;
+	background-position:95%;
+	margin-top:28%;
+	margin-bottom:5%;
+	border:yellow ridge 2px;
+}
+
+.articlecontext{
+	width:65%;
+	text-align:justify;
+	padding:1em;
+}
+
+.Reading{
+	font-size:25px;
+}
+
+
+
+
+
+
+.musicpower
+{
+	background-color:#FF8C00;
+	color:white;
+	font-family:Helvetica;
+	border-radius:15px;
+	text-align:center;
+	margin-top:5%;
+	margin-bottom:2%;
+	border:solid 2px black;
+}
+
+.musicmain{
+	background-image:url(../images/musicbackground4.jpg);
+	background-color:blue;
+}
+
+.musicPara1{
+	float:left;
+	width:50%;
+	background: linear-gradient(#FF8C00, #FFD700);
+	background-color:#FF8C00;
+	border-radius:15px;
+	padding:1em;
+	margin-bottom:3%;
+	margin-top:3%;
+	margin-left:23.5%;
+	border:black solid 2px;
+}
+
+.musicPara2{
+	float:left;
+	width:50%;
+	margin:auto;
+	background: linear-gradient(#FF8C00, #FFD700);
+	background-color:#FF8C00;
+	border-radius:15px;
+	padding:1em;
+	margin-top:3%;
+	margin-left:24%;
+	border:black solid 2px;
+	margin-bottom:5%;
+}
+
+.musicsheet{
+	border-collapse:separate;
+	background-color:white;
+}
+
+.musicCaption{
+	color:#00FF00;
+	font-size:170%;
+	background-color:black;
+}
+
+.musicFigcaption{
+	background: linear-gradient(#FF8C00, #FFD700);
+	color:black;
+}
+
+.musicPara3{
+    float:left;
+	width:50%;
+	margin:auto;
+	background: linear-gradient(#FF8C00, #FFD700);
+	background-color:#FF8C00;
+	border-radius:15px;
+	padding:1em;
+	margin-bottom:3%;
+	margin-top:3%;
+	border:black solid 2px;
+	margin-left:24%;
+}
+
+.Funfacts{
+	float:left;
+	width:30%;
+	display:block;
+	background-color:#00FA9A;
+	padding:1em;
+	margin-top:4%;
+	background: linear-gradient(#00FA9A, #E0FFFF);
+	background-color:#00FA9A;
+	border:dotted black 2px;
+}
+
+
+
+
+	
+.cartoontitle{
+	background-color:#FF69B4;
+	color:white;
+	font-family:Helvetica;
+	border-radius:15px;
+	text-align:center;
+	margin-top:5%;
+	margin-bottom:2%;
+	border:solid 2px black;
+}
+
+  
+.cartoonmain{
+	background-image:url(../images/cartoonbackground1.gif);
+	background-size:1900px 1900px;
+	background-color:red;
+}
+
+.cartoonFigCaption{
+	background: linear-gradient(#FF69B4,white);
+	background-color:#FF69B4;
+	color:black;
+}
+
+.cartoonImg{
+	border:solid black 2px;
+}
+
+.animatePara1{
+	float:left;
+	width:50%;
+    background: linear-gradient(#FF69B4,white);
+	background-color:#FF69B4;
+	border-radius:15px;
+	padding:1em;
+	margin-bottom:3%;
+	margin-top:3%;
+	margin-left:23.5%;
+	border:black solid 2px;
+}
+
+.animatePara2{
+	float:left;
+	width:50%;
+	background: linear-gradient(#FF69B4,white);
+	background-color:#FF69B4;
+	border-radius:15px;
+	padding:1em;
+	margin-bottom:3%;
+	margin-top:3%;
+	margin-left:23.5%;
+	border:black solid 2px;
+}
+
+.CharacterDevelopment{
+	float:left;
+	width:50%;
+	background-color:#32CD32;
+	border-radius:15px;
+	padding:1em;
+	margin-bottom:3%;
+	margin-top:5%;
+	margin-left:8.5%;
+	border:black solid 2px;
+	padding-left:600px;
+	color:black;
+	background-image:url(../images/dragonballsuper.jpg);
+	background-size:350px 300px;
+	background-repeat:no-repeat;
+	background-position:8%;
+	border:dotted black 2px;
+	
+}
+
+img{
+	border:white solid 2px;
+}
+
+
+   	
+
+
+
+
